@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.lincompute.multiplication.test.SquareMatrixMultiplicationTest" time="0.119" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\Desktop\LINSOLVE\LINEAR_PROGRAMMING\eclipse-jee-2023-03-R-win32-x86_64\eclipse\linear_programming_workspace\SquareMatricesMultiplicationParallelized\target\test-classes;C:\Users\user\Desktop\LINSOLVE\LINEAR_PROGRAMMING\eclipse-jee-2023-03-R-win32-x86_64\eclipse\linear_programming_workspace\SquareMatricesMultiplicationParallelized\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+01:00"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire2594084375274499650\surefirebooter-20250203232708964_3.jar C:\Users\user\AppData\Local\Temp\surefire2594084375274499650 2025-02-03T23-27-08_744-jvmRun1 surefire-20250203232708964_1tmp surefire_0-20250203232708964_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\Desktop\LINSOLVE\LINEAR_PROGRAMMING\eclipse-jee-2023-03-R-win32-x86_64\eclipse\linear_programming_workspace\SquareMatricesMultiplicationParallelized\target\test-classes;C:\Users\user\Desktop\LINSOLVE\LINEAR_PROGRAMMING\eclipse-jee-2023-03-R-win32-x86_64\eclipse\linear_programming_workspace\SquareMatricesMultiplicationParallelized\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\Desktop\LINSOLVE\LINEAR_PROGRAMMING\eclipse-jee-2023-03-R-win32-x86_64\eclipse\linear_programming_workspace\SquareMatricesMultiplicationParallelized"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire2594084375274499650\surefirebooter-20250203232708964_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\Users\user\Desktop\LINSOLVE\LINEAR_PROGRAMMING\eclipse-jee-2023-03-R-win32-x86_64\eclipse\linear_programming_workspace\SquareMatricesMultiplicationParallelized"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\user\product\18.0.0\dbhomeXE\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk-17\bin;C:\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Program Files\GitHub CLI\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Windows\System32;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\user\Documents\MODEL_SIM\modelsim_ase\win32aloem;C:\Users\user\AppData\Roaming\Composer\vendor\bin;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="t_001" classname="com.lincompute.multiplication.test.SquareMatrixMultiplicationTest" time="0.033">
+    <system-out><![CDATA[70.0 | 65.0 | 60.0 | 91.0 | 86.0 | 
+143.10000000000002 | 139.2 | 135.3 | 212.4 | 208.5 | 
+126.0 | 117.0 | 108.0 | 153.0 | 144.0 | 
+120.0 | 115.0 | 110.0 | 123.0 | 118.0 | 
+150.0 | 140.0 | 130.0 | 183.0 | 173.0 | 
+---------------------------
+---------------------------
+70.0 | 65.0 | 60.0 | 91.0 | 86.0 | 
+143.1 | 139.2 | 135.3 | 212.4 | 208.5 | 
+126.0 | 117.0 | 108.0 | 153.0 | 144.0 | 
+120.0 | 115.0 | 110.0 | 123.0 | 118.0 | 
+150.0 | 140.0 | 130.0 | 183.0 | 173.0 | 
+]]></system-out>
+  </testcase>
+  <testcase name="t_002" classname="com.lincompute.multiplication.test.SquareMatrixMultiplicationTest" time="0.007">
+    <system-out><![CDATA[78.0 | 67.0 | 56.0 | 90.0 | 79.0 | 
+186.0 | 163.0 | 140.0 | 189.0 | 166.0 | 
+144.0 | 133.0 | 122.0 | 129.0 | 118.0 | 
+104.0 | 90.0 | 76.0 | 116.0 | 102.0 | 
+182.0 | 159.0 | 136.0 | 194.0 | 171.0 | 
+---------------------------
+---------------------------
+78.0 | 67.0 | 56.0 | 90.0 | 79.0 | 
+186.0 | 163.0 | 140.0 | 189.0 | 166.0 | 
+144.0 | 133.0 | 122.0 | 129.0 | 118.0 | 
+104.0 | 90.0 | 76.0 | 116.0 | 102.0 | 
+182.0 | 159.0 | 136.0 | 194.0 | 171.0 | 
+]]></system-out>
+  </testcase>
+  <testcase name="t_003" classname="com.lincompute.multiplication.test.SquareMatrixMultiplicationTest" time="0.008">
+    <system-out><![CDATA[157.0 | 164.0 | 150.0 | 188.0 | 181.0 | 
+129.0 | 135.0 | 123.0 | 189.0 | 183.0 | 
+88.0 | 89.0 | 87.0 | 158.0 | 157.0 | 
+113.0 | 118.0 | 108.0 | 130.0 | 125.0 | 
+138.0 | 147.0 | 129.0 | 183.0 | 174.0 | 
+---------------------------
+---------------------------
+157.0 | 164.0 | 150.0 | 188.0 | 181.0 | 
+129.0 | 135.0 | 123.0 | 189.0 | 183.0 | 
+88.0 | 89.0 | 87.0 | 158.0 | 157.0 | 
+113.0 | 118.0 | 108.0 | 130.0 | 125.0 | 
+138.0 | 147.0 | 129.0 | 183.0 | 174.0 | 
+]]></system-out>
+  </testcase>
+  <testcase name="t_004" classname="com.lincompute.multiplication.test.SquareMatrixMultiplicationTest" time="0.006">
+    <system-out><![CDATA[129.0 | 125.0 | 184.0 | 180.0 | 176.0 | 
+104.0 | 105.0 | 124.0 | 125.0 | 126.0 | 
+78.0 | 73.0 | 86.0 | 81.0 | 76.0 | 
+150.0 | 143.0 | 217.0 | 210.0 | 203.0 | 
+147.0 | 139.0 | 176.0 | 168.0 | 160.0 | 
+---------------------------
+---------------------------
+129.0 | 125.0 | 184.0 | 180.0 | 176.0 | 
+104.0 | 105.0 | 124.0 | 125.0 | 126.0 | 
+78.0 | 73.0 | 86.0 | 81.0 | 76.0 | 
+150.0 | 143.0 | 217.0 | 210.0 | 203.0 | 
+147.0 | 139.0 | 176.0 | 168.0 | 160.0 | 
+]]></system-out>
+  </testcase>
+  <testcase name="t_005" classname="com.lincompute.multiplication.test.SquareMatrixMultiplicationTest" time="0.006">
+    <system-out><![CDATA[149.0 | 124.0 | 99.0 | 110.0 | 85.0 | 
+209.0 | 174.0 | 139.0 | 158.0 | 123.0 | 
+91.0 | 76.0 | 61.0 | 82.0 | 67.0 | 
+210.0 | 175.0 | 140.0 | 159.0 | 124.0 | 
+181.0 | 151.0 | 121.0 | 154.0 | 124.0 | 
+---------------------------
+---------------------------
+149.0 | 124.0 | 99.0 | 110.0 | 85.0 | 
+209.0 | 174.0 | 139.0 | 158.0 | 123.0 | 
+91.0 | 76.0 | 61.0 | 82.0 | 67.0 | 
+210.0 | 175.0 | 140.0 | 159.0 | 124.0 | 
+181.0 | 151.0 | 121.0 | 154.0 | 124.0 | 
+]]></system-out>
+  </testcase>
+</testsuite>
